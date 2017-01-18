@@ -62,7 +62,7 @@ Whitelabeling
 
 In order to show the ISPs that you are the sender and that you meant to send these messages, the authentication needs to be properly done.
 
-The sending domain needs to be [whitelabeled]({{root_url}}/User_Guide/Settings/Whitelabel/index.html) (so that the SPF and DKIM pass). We highly recommend whitelabeling all of the links that you include in yoru email - as mentioned above, these links should be on your own domain and they shouldn't be blacklisted.
+The sending domain needs to be [whitelabeled]({{root_url}}/User_Guide/Settings/Whitelabel/index.html) (so that the SPF and DKIM pass). We highly recommend whitelabeling all of the links that you include in your email - as mentioned above, these links should be on your own domain and they shouldn't be blacklisted.
 
 If the above guidelines are met (the sending domain matches the whitelabeled domain; the authentication is properly handled, the content is relevant and not using spam triggering words, and the IP is clean and warmed-up) then your messages should start going to inbox.
 
